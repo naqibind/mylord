@@ -278,7 +278,7 @@ span {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 313px 7rem;
+  padding: 313px 10rem;
   gap: 4rem;
 }
 
@@ -299,6 +299,10 @@ span {
 .about-content p {
   font-size: 1.6rem;
   margin: 2rem 0 3rem;
+}
+.services {
+  padding: 313px 1;
+  gap: 4rem;
 }
 
 .services .services-container {

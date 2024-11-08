@@ -301,6 +301,50 @@ span {
   margin: 2rem 0 3rem;
 }
 
+.services .services-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.services-container .services-box {
+  flex: 1 1 20rem;
+  background: var(--bg-color);
+  padding: 2rem 2rem 2rem;
+  border-radius: 14px;
+  box-shadow: 0 0.1rem 0.5rem var(--box-shadow);
+  text-align: center;
+  border-top: 8px solid var(--main-color);
+  border-bottom: 8px solid var(--main-color);
+  transition: 0.5s ease;
+  opacity: 0;
+  animation: slideTop 1s ease forwards;
+  animation-delay: 2s;
+}
+.btn-s {
+  display: inline-block;
+  padding: 12px 28px;
+  background: var(--main-color);
+  border-radius: 6px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 2);
+  border: 2px solid transparent;
+  font-size: 16px;
+  color: #fff;
+  letter-spacing: 1px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: 0.5s ease;
+  opacity: 0;
+  animation: slideRight 1s ease forwards;
+  animation-delay: 4s;
+}
+.btn-s:hover {
+  background: transparent;
+  color: var(--main-color);
+  border-color: var(--main-color);
+}
 /*KEYFRAME ANIMATIONS*/
 @keyframes slideRight {
   0% {

@@ -15,15 +15,15 @@
         <a href="#" style="--i:12" class="active">Home</a>
         <a href="#about" style="--i:13">About</a>
         <a href="#services" style="--i:14">Skills</a>
-        <a href="#" style="--i:15">Portofolio</a>
         <a href="#" style="--i:16"> Contact</a>
       </nav>
       <div class="toggle">
         <i class="bx bx-moon toggle-icon"></i>
       </div>
+      <div class="bx bx-menu" id="menu-icon"></div>
     </header>
 
-    <section class="home">
+    <section class="home" id="home">
       <div class="home-content">
         <h3>Hello, I am</h3>
         <h1>Naqib</h1>
@@ -67,7 +67,7 @@
     </section>
 
     <!--about-->
-    <section class="about">
+    <section class="about" id="about">
       <div class="about-img" id="about">
         <img src="about.png" alt="">
       </div>
@@ -75,7 +75,7 @@
         <h2 class="heading">About <span>Me</span></h2>
         <h3>Hi, Perkenalkan saya Naqib Muhammad Usman.</h3>
         <p>saya merupakan siswa MTsN2 Kota Padang cita cita saya menjadi 100 orang berpengaruh di dunia</p>
-        <a href="#"class="btn">Read More</a>
+        <a href="#services"class="btn">Read More</a>
       </div>
     </section>
     <!-- service section design -->
@@ -87,7 +87,7 @@
         <div class="services-box">
           <div class="btn-s"><h3>
             <i class='bx bxl-html5'>
-             Web Development 
+             HTML
             </i>
             </h3>
         </div>
@@ -107,19 +107,41 @@
           </i>
           </h3>
       </div>
+    </div>
+      <div class="services-box">
+        <div class="btn-s"><h3>
+          <i class='bx bxl-tailwind-css'>
+           Tailwind CSS 
+          </i>
+          </h3>
       </div>
-        <div class="services-box">
-          <div class="btn-s"><h3>
-            <i class='bx bxl-tailwind-css'>
-             Tailwind CSS 
-            </i>
-            </h3>
-        </div>
-        </div>
       </div>
+    </div>
       <br>
-     </section>
+    </section>
+    <!--service-->
+    <section class="contact" id="contact">
+      <h2 class="heading">Contact <span>Me!</span></h2>
+      <form action="#">
+        <div class="input-box">
+          <input type="text" placeholder="Full Name">
+          <input type="email" placeholder="Email Address">
+        </div>
+        <div class="input-box">
+          <input type="number" placeholder="Mobile Number">
+          <input type="Text" placeholder="Email Subject">
+        </div>
+        <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+        <input type="submit" value="Send Message" class="btn">
+      </form>
+    </section>
+    <footer class="footer">
+      <div class="footer-text">
+        <p>Copyright &copy; 2025 by Naqib | All Rights Reserved</p>
+      </div>
 
+    </footer>
+    
 
     <script src="script.js"></script>
   </body>

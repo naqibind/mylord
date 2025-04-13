@@ -1,3 +1,7 @@
+document.oncontextmenu = () => {
+  alert("don't try right click");
+  return false;
+};
 document.onkeydown = (e) => {
   if (e.key == "F12") {
     alert("nice try");
